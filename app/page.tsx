@@ -14,7 +14,7 @@ export default function Home() {
     <main className="relative min-h-screen overflow-hidden bg-transparent text-zinc-950 transition-colors duration-500 dark:text-zinc-50">
       <AnimatedBackground />
       <CursorCoordinates />
-      <div className="relative z-10">
+      <div className="relative z-10 pt-16">
         <SiteHeader />
         <HeroSection />
         <AboutSection />
