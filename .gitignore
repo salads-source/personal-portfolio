@@ -1,0 +1,8 @@
+.next/
+out/
+node_modules/
+.env*.local
+pnpm-lock.yaml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

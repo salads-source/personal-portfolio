@@ -1,0 +1,330 @@
+- main [ref=e2]:
+  - navigation "Main navigation" [ref=e7]:
+    - link "RQ" [ref=e8] [cursor=pointer]:
+      - /url: "#hero"
+      - generic [ref=e9]: RQ
+    - generic [ref=e11]:
+      - button "Toggle color theme" [ref=e12] [cursor=pointer]
+      - link [ref=e14] [cursor=pointer]:
+        - /url: /Ron_Quah_Tech_Resume.pdf
+        - img [ref=e15]
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]: Profile in action
+      - heading "Ron Quah builds reliable systems" [level=1] [ref=e23]:
+        - text: Ron Quah
+        - generic [ref=e24]: builds reliable systems
+      - paragraph [ref=e25]: Backend, data platform, compliance, and ML engineering across Kafka, Spring Boot, ClickHouse, Redis, Kubernetes, React, and PyTorch.
+      - generic [ref=e26]:
+        - link "Contact" [ref=e27] [cursor=pointer]:
+          - /url: mailto:e1156664@u.nus.edu
+          - text: Contact
+          - img [ref=e28]
+        - link "Download CV" [ref=e30] [cursor=pointer]:
+          - /url: /Ron_Quah_Tech_Resume.pdf
+          - img [ref=e31]
+          - text: Download CV
+      - generic [ref=e34]:
+        - link "LinkedIn" [ref=e35] [cursor=pointer]:
+          - /url: http://www.linkedin.com/in/ron-quah-950922262
+          - img [ref=e36]
+          - text: LinkedIn
+        - link "GitHub" [ref=e40] [cursor=pointer]:
+          - /url: https://github.com/salads-source
+          - img [ref=e41]
+          - text: GitHub
+        - link "e1156664@u.nus.edu" [ref=e44] [cursor=pointer]:
+          - /url: mailto:e1156664@u.nus.edu
+          - img [ref=e45]
+          - text: e1156664@u.nus.edu
+        - generic [ref=e48]:
+          - img [ref=e49]
+          - text: Singapore
+        - generic [ref=e52]:
+          - img [ref=e53]
+          - text: +65 9100 7628
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: Current signal
+          - generic [ref=e59]: Systems online
+        - generic [ref=e60]:
+          - paragraph [ref=e61]: "$ boot: portfolio.runtime"
+          - paragraph [ref=e62]: "$ scope: backend | data | compliance | ml"
+          - paragraph [ref=e63]: "$ signal: singapore"
+          - paragraph [ref=e64]: "$ status: building reliable systems"
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - paragraph [ref=e68]: 1M+
+          - paragraph [ref=e69]: Task instances served daily
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: 40%
+          - paragraph [ref=e72]: Manual review time reduced
+        - generic [ref=e73]:
+          - paragraph [ref=e74]: 30%
+          - paragraph [ref=e75]: Latency or memory reductions
+    - generic [ref=e77]: Ron Quah / NUS Computer Science / Google SWE Intern / Shopee Data Platform / Binance Global KYC / Kafka / ClickHouse / Spring Boot / PyTorch / Ron Quah / NUS Computer Science / Google SWE Intern / Shopee Data Platform / Binance Global KYC / Kafka / ClickHouse / Spring Boot / PyTorch /
+  - generic [ref=e78]:
+    - generic [ref=e79]:
+      - paragraph [ref=e80]: About
+      - heading "Engineering instincts shaped by data platforms, compliance systems, and ML deployment." [level=2] [ref=e81]
+    - generic [ref=e82]:
+      - generic [ref=e84]:
+        - paragraph [ref=e85]: Computer Science student at the National University of Singapore, building across backend infrastructure, data platforms, compliance workflows, and applied machine learning.
+        - paragraph [ref=e86]: Recent work spans Kafka and ClickHouse log ingestion, Spring Boot microservices, Redis-backed fault tolerance, Kubernetes preview environments, React/Next.js frontends, and low-latency computer vision inference.
+      - generic [ref=e87]:
+        - generic [ref=e88]: +Backend systems
+        - generic [ref=e89]: +Data reliability
+        - generic [ref=e90]: +Compliance automation
+        - generic [ref=e91]: +Computer vision
+  - generic [ref=e92]:
+    - generic [ref=e93]:
+      - paragraph [ref=e94]: Experience
+      - heading "Production-facing engineering across high-trust systems." [level=2] [ref=e95]
+      - paragraph [ref=e96]: A compact timeline of internships and engineering roles from the CV.
+    - generic [ref=e97]:
+      - article [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: Singapore
+            - heading "Incoming Software Engineer Intern" [level=3] [ref=e102]
+            - paragraph [ref=e103]: Google
+          - paragraph [ref=e104]: May 2026 - August 2026
+        - generic [ref=e106]: Software Engineering
+        - list [ref=e107]:
+          - listitem [ref=e108]:
+            - generic [ref=e110]: Incoming internship focused on software engineering in Google's Singapore office.
+      - article [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - paragraph [ref=e114]: Singapore
+            - heading "Backend Engineer Intern, Data Platform" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Shopee
+          - paragraph [ref=e117]: December 2025 - April 2026
+        - generic [ref=e118]:
+          - generic [ref=e119]: Spring
+          - generic [ref=e120]: Kafka
+          - generic [ref=e121]: Redis
+          - generic [ref=e122]: Grafana
+          - generic [ref=e123]: ClickHouse
+          - generic [ref=e124]: Kubernetes
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - generic [ref=e128]: Designed and implemented a distributed log storage pipeline with Kafka and ClickHouse ReplicatedMergeTree, using partitioning, sharding, and replication to ingest and serve logs for 1M+ task instances daily.
+          - listitem [ref=e129]:
+            - generic [ref=e131]: Improved data quality service reliability with Grafana monitoring and thread pool concurrency tuning, reducing memory usage by 30% under load.
+          - listitem [ref=e132]:
+            - generic [ref=e134]: Collaborated with SRE to architect Kubernetes namespace based preview environments with namespaced Kafka topics, S3 prefixes, Redis keys, and automated CI/CD teardown.
+      - article [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - paragraph [ref=e138]: Singapore
+            - heading "Software Engineer Intern, Global KYC" [level=3] [ref=e139]
+            - paragraph [ref=e140]: Binance
+          - paragraph [ref=e141]: May 2025 - November 2025
+        - generic [ref=e142]:
+          - generic [ref=e143]: Spring
+          - generic [ref=e144]: MySQL
+          - generic [ref=e145]: Kafka
+          - generic [ref=e146]: Redis
+          - generic [ref=e147]: TestNG
+        - list [ref=e148]:
+          - listitem [ref=e149]:
+            - generic [ref=e151]: Built a scalable Spring Boot microservice for multi-stage document verification, orchestrating OCR extraction and LLM-based compliance checks with RAG jurisdiction rules.
+          - listitem [ref=e152]:
+            - generic [ref=e154]: Generated explainable pass/fail previews and reduced manual compliance review time by 40%.
+          - listitem [ref=e155]:
+            - generic [ref=e157]: Engineered a Kafka fallback mechanism using Redis as temporary persistence during broker unavailability and ZooKeeper leader re-election.
+      - article [ref=e158]:
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: Remote
+            - heading "Junior Developer" [level=3] [ref=e162]
+            - paragraph [ref=e163]: Reform DAO
+          - paragraph [ref=e164]: November 2024 - May 2025
+        - generic [ref=e165]:
+          - generic [ref=e166]: React
+          - generic [ref=e167]: Express.js
+          - generic [ref=e168]: Tailwind
+          - generic [ref=e169]: JavaScript
+          - generic [ref=e170]: TanStack Query
+          - generic [ref=e171]: TanStack Table
+        - list [ref=e172]:
+          - listitem [ref=e173]:
+            - generic [ref=e175]: Built full-stack airdrop features connecting React interfaces with Express.js APIs for peak usage of up to 3,000 users.
+          - listitem [ref=e176]:
+            - generic [ref=e178]: Architected data-driven dashboards with TanStack Query caching and TanStack Table presentation for responsive frontend data handling.
+      - article [ref=e179]:
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: Singapore
+            - heading "Frontend Developer Intern" [level=3] [ref=e183]
+            - paragraph [ref=e184]: Classpoint
+          - paragraph [ref=e185]: July 2024 - September 2024
+        - generic [ref=e186]:
+          - generic [ref=e187]: React
+          - generic [ref=e188]: Next.js
+          - generic [ref=e189]: Tailwind
+          - generic [ref=e190]: JavaScript
+        - list [ref=e191]:
+          - listitem [ref=e192]:
+            - generic [ref=e194]: Architected responsive React and Next.js interfaces with reusable component hierarchies and Tailwind-based design systems.
+          - listitem [ref=e195]:
+            - generic [ref=e197]: Delivered 10+ production pages in partnership with product and backend teams.
+          - listitem [ref=e198]:
+            - generic [ref=e200]: Reduced initial bundle pressure through dynamic imports, lazy loading, and code splitting.
+      - article [ref=e201]:
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - paragraph [ref=e204]: Singapore
+            - heading "Machine Learning Engineer Intern" [level=3] [ref=e205]
+            - paragraph [ref=e206]: Digital Intelligence Service (DIS)
+          - paragraph [ref=e207]: June 2022 - April 2023
+        - generic [ref=e208]:
+          - generic [ref=e209]: PyTorch
+          - generic [ref=e210]: Python
+          - generic [ref=e211]: Docker
+          - generic [ref=e212]: ResNet50
+          - generic [ref=e213]: YOLOv5
+        - list [ref=e214]:
+          - listitem [ref=e215]:
+            - generic [ref=e217]: Designed and implemented a real-time computer vision inference pipeline for operational military use.
+          - listitem [ref=e218]:
+            - generic [ref=e220]: Built and optimized CNN-based object detection models, achieving 80% target detection accuracy during live field exercises.
+          - listitem [ref=e221]:
+            - generic [ref=e223]: Reduced processing latency by 30% through inference pipeline restructuring, batching, and runtime tuning.
+  - generic [ref=e224]:
+    - generic [ref=e225]:
+      - paragraph [ref=e226]: Projects
+      - heading "Selected systems from recent engineering work." [level=2] [ref=e227]
+      - paragraph [ref=e228]: The CV does not list standalone personal projects, so this section highlights shipped systems and pipelines directly from work experience.
+    - generic [ref=e229]:
+      - article [ref=e230]:
+        - generic [ref=e231]:
+          - img [ref=e233]
+          - paragraph [ref=e237]: Shopee Data Platform
+        - heading "Distributed Log Storage Pipeline" [level=3] [ref=e238]
+        - paragraph [ref=e239]: Kafka and ClickHouse ingestion system with ReplicatedMergeTree, partitioning, sharding, and replication for high-volume task logs.
+        - paragraph [ref=e240]: Served logs for 1M+ task instances daily.
+      - article [ref=e241]:
+        - generic [ref=e242]:
+          - img [ref=e244]
+          - paragraph [ref=e247]: Binance Global KYC
+        - heading "KYC Document Verification Service" [level=3] [ref=e248]
+        - paragraph [ref=e249]: Spring Boot microservice coordinating OCR extraction, LLM compliance checks, and RAG-backed jurisdiction rules with explainable decisions.
+        - paragraph [ref=e250]: Reduced manual compliance review time by 40%.
+      - article [ref=e251]:
+        - generic [ref=e252]:
+          - img [ref=e254]
+          - paragraph [ref=e256]: Shopee SRE collaboration
+        - heading "Ephemeral Preview Environments" [level=3] [ref=e257]
+        - paragraph [ref=e258]: Per-PR isolated deployments using Kubernetes namespaces and namespaced Kafka, S3, and Redis resources with CI/CD provisioning.
+        - paragraph [ref=e259]: Improved development isolation and cleanup reliability.
+      - article [ref=e260]:
+        - generic [ref=e261]:
+          - img [ref=e263]
+          - paragraph [ref=e275]: Digital Intelligence Service
+        - heading "Real-Time Vision Inference Pipeline" [level=3] [ref=e276]
+        - paragraph [ref=e277]: Low-latency target detection workflow using CNN-based models, Dockerized deployment, batching, and runtime performance tuning.
+        - paragraph [ref=e278]: Reached 80% detection accuracy and cut processing latency by 30%.
+  - generic [ref=e279]:
+    - generic [ref=e280]:
+      - paragraph [ref=e281]: Skills
+      - heading "Technical stack with backend depth and product-surface range." [level=2] [ref=e282]
+    - generic [ref=e283]:
+      - article [ref=e284]:
+        - generic [ref=e285]:
+          - img [ref=e287]
+          - heading "Languages" [level=3] [ref=e291]
+        - generic [ref=e292]:
+          - generic [ref=e293]: Python
+          - generic [ref=e294]: JavaScript
+          - generic [ref=e295]: Java
+          - generic [ref=e296]: Golang
+          - generic [ref=e297]: TypeScript
+          - generic [ref=e298]: HTML/CSS
+          - generic [ref=e299]: SQL
+          - generic [ref=e300]: MongoDB
+      - article [ref=e301]:
+        - generic [ref=e302]:
+          - img [ref=e304]
+          - heading "Frameworks" [level=3] [ref=e308]
+        - generic [ref=e309]:
+          - generic [ref=e310]: React
+          - generic [ref=e311]: Next.js
+          - generic [ref=e312]: Spring Boot
+          - generic [ref=e313]: Express.js
+          - generic [ref=e314]: TensorFlow
+          - generic [ref=e315]: PyTorch
+      - article [ref=e316]:
+        - generic [ref=e317]:
+          - img [ref=e319]
+          - heading "Data & Infra" [level=3] [ref=e324]
+        - generic [ref=e325]:
+          - generic [ref=e326]: Apache Kafka
+          - generic [ref=e327]: Apache Spark
+          - generic [ref=e328]: Redis
+          - generic [ref=e329]: ClickHouse
+          - generic [ref=e330]: Grafana
+          - generic [ref=e331]: Docker
+      - article [ref=e332]:
+        - generic [ref=e333]:
+          - img [ref=e335]
+          - heading "Cloud & Tools" [level=3] [ref=e339]
+        - generic [ref=e340]:
+          - generic [ref=e341]: GCP
+          - generic [ref=e342]: AWS
+          - generic [ref=e343]: Firebase
+          - generic [ref=e344]: GitHub
+          - generic [ref=e345]: VS Code
+          - generic [ref=e346]: Jest
+          - generic [ref=e347]: TestNG
+      - article [ref=e348]:
+        - generic [ref=e349]:
+          - img [ref=e351]
+          - heading "Systems Focus" [level=3] [ref=e354]
+        - generic [ref=e355]:
+          - generic [ref=e356]: Microservices
+          - generic [ref=e357]: CI/CD
+          - generic [ref=e358]: Observability
+          - generic [ref=e359]: Fault tolerance
+          - generic [ref=e360]: Computer vision
+          - generic [ref=e361]: RAG workflows
+  - generic [ref=e362]:
+    - generic [ref=e363]:
+      - paragraph [ref=e364]: Education
+      - heading "Computer Science foundation at NUS." [level=2] [ref=e365]
+    - article [ref=e366]:
+      - generic [ref=e367]:
+        - img [ref=e369]
+        - generic [ref=e372]:
+          - heading "National University of Singapore" [level=3] [ref=e373]
+          - paragraph [ref=e374]: Bachelor of Computer Science
+      - paragraph [ref=e375]: August 2023 - May 2027
+  - generic [ref=e377]:
+    - generic [ref=e378]:
+      - paragraph [ref=e379]: Contact
+      - heading "Let's talk systems, internships, and engineering problems worth tightening." [level=2] [ref=e380]
+      - paragraph [ref=e381]: Best reached by email. Social links are pulled from the CV.
+    - generic [ref=e382]:
+      - link "Email" [ref=e383] [cursor=pointer]:
+        - /url: mailto:e1156664@u.nus.edu
+        - img [ref=e384]
+        - generic [ref=e387]: Email
+        - img [ref=e388]
+      - link "LinkedIn" [ref=e391] [cursor=pointer]:
+        - /url: http://www.linkedin.com/in/ron-quah-950922262
+        - img [ref=e392]
+        - generic [ref=e396]: LinkedIn
+        - img [ref=e397]
+      - link "GitHub" [ref=e400] [cursor=pointer]:
+        - /url: https://github.com/salads-source
+        - img [ref=e401]
+        - generic [ref=e404]: GitHub
+        - img [ref=e405]
+      - link "Phone" [ref=e408] [cursor=pointer]:
+        - /url: tel:+6591007628
+        - img [ref=e409]
+        - generic [ref=e411]: Phone
+        - img [ref=e412]
+    - generic [ref=e415]: Built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, and next-themes.

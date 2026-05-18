@@ -1,0 +1,30 @@
+[    8449ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  858881ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  862704ms] [ERROR] ./components/animated-background.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\components\animated-background.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/animated-background.tsx
+./app/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  862834ms] [LOG] {file: Object} @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/compiled/next-devtools/index.js:1630
+[  862984ms] [LOG] [Fast Refresh] done in 4104ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  879375ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  879595ms] [LOG] [Fast Refresh] done in 220ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  886086ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  886419ms] [LOG] [Fast Refresh] done in 332ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  889192ms] [LOG] [Fast Refresh] done in 3105ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[ 1054411ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[ 1063691ms] [LOG] [Fast Refresh] done in 9279ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[ 1069160ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[ 1077130ms] [LOG] [Fast Refresh] done in 7970ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[ 1110018ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3000/?_rsc=_mjR7ylJSLpkZcZ3:0
+[ 1110417ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[ 1117900ms] [LOG] [Fast Refresh] done in 7482ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[ 1138738ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3000/?_rsc=_mjR7ylJSLpkZcZ3:0
+[ 1150292ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3000/?_rsc=_mjR7ylJSLpkZcZ3:0
+[ 1160777ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3000/?_rsc=_mjR7ylJSLpkZcZ3:0
+[ 1174065ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3000/:0

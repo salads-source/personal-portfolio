@@ -1,0 +1,17 @@
+[   26108ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  242033ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  249530ms] [ERROR] ./components/cursor-coordinates.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\components\cursor-coordinates.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/cursor-coordinates.tsx
+./app/page.tsx @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/next-devtools/userspace/app/errors/intercept-console-error.js:56
+[  249685ms] [LOG] {file: Object} @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/compiled/next-devtools/index.js:1630
+[  249857ms] [LOG] [Fast Refresh] done in 7828ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  273636ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[  274113ms] [LOG] [Fast Refresh] done in 476ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[  287263ms] [LOG] [Fast Refresh] done in 13626ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13

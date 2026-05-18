@@ -1,0 +1,22 @@
+
+> ron-quah-portfolio@1.0.0 dev C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech
+> next dev "--hostname" "127.0.0.1" "--port" "3000"
+
+   ▲ Next.js 15.5.18
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 26.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 34.3s (1451 modules)
+ GET / 200 in 49868ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 6.2s (822 modules)
+ GET /icon.svg?217bbb31b406553f 200 in 8706ms
+ GET / 200 in 11342ms
+ GET /icon.svg?217bbb31b406553f 200 in 149ms
+ GET / 200 in 5048ms
+ GET /icon.svg?217bbb31b406553f 200 in 84ms
+ GET / 200 in 4004ms
+[?25h

@@ -1,0 +1,89 @@
+[    5438ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:196
+[    6505ms] [LOG] [Fast Refresh] done in 1067ms @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/report-hmr-latency.js:13
+[   15719ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:3000/:0
+[   17311ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom-client.development.js:28004
+[   17946ms] Error: Cannot find module './692.js'
+Require stack:
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\.next\server\webpack-runtime.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\.next\server\pages\_document.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\require.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\load-components.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\build\utils.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\build\swc\options.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\build\swc\index.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\lib\start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1383:15)
+    at <unknown> (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\require-hook.js:57:36)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1025:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1030:22)
+    at Function._load (node:internal/modules/cjs/loader:1192:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:147:16)
+    at __webpack_require__.f.require (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\.next\server\webpack-runtime.js:190:28)
+    at <unknown> (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\.next\server\webpack-runtime.js:103:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\.next\server\webpack-runtime.js:102:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\.next\server\webpack-runtime.js:154:22)
+    at <unknown> (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\.next\server\pages\_document.js:1:321)
+    at Object.<anonymous> (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\.next\server\pages\_document.js:1:366)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1463:12)
+    at mod.require (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\require-hook.js:68:28)
+    at require (node:internal/modules/helpers:147:16)
+    at requirePage (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\require.js:99:80)
+    at loadComponentsImpl (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\next-server.js:900:77)
+    at <unknown> (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\next-server.js:878:21)
+    at <unknown> (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\lib\trace\tracer.js:184:36)
+    at NoopContextManager.with (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NoopTracer.startActiveSpan (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18093)
+    at ProxyTracer.startActiveSpan (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:18854)
+    at <unknown> (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\lib\trace\tracer.js:153:103)
+    at NoopContextManager.with (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:7062)
+    at ContextAPI.with (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\compiled\@opentelemetry\api\index.js:1:518)
+    at NextTracerImpl.trace (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\lib\trace\tracer.js:153:28)
+    at DevServer.findPageComponents (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\next-server.js:873:41)
+    at DevServer.findPageComponents (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\dev\next-dev-server.js:706:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\base-server.js:1695:26)
+    at async pipe.req.req (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\base-server.js:1618:30)
+    at async DevServer.pipeImpl (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\base-server.js:1026:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\next-server.js:409:21)
+    at async DevServer.handleRequestImpl (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\base-server.js:917:17)
+    at async (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\dev\next-dev-server.js:400:20)
+    at async Span.traceAsyncFn (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (file://C:\Users\user\Documents\Codex\2026-05-17\files-mentioned-by-the-user-tech\node_modules\.pnpm\next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6\node_modules\next\dist\server\dev\next-dev-server.js:396:24)
+[   17910ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[  153234ms] [ERROR] WebSocket connection to 'ws://127.0.0.1:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[  156292ms] [ERROR] WebSocket connection to 'ws://127.0.0.1:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[  159353ms] [ERROR] WebSocket connection to 'ws://127.0.0.1:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[  162417ms] [ERROR] WebSocket connection to 'ws://127.0.0.1:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[  165489ms] [ERROR] WebSocket connection to 'ws://127.0.0.1:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[  172541ms] [ERROR] WebSocket connection to 'ws://127.0.0.1:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[  179607ms] [ERROR] WebSocket connection to 'ws://127.0.0.1:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:88
+[  197076ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[  197168ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:3000/_next/static/webpack/9463f54cca6ec2e9.webpack.hot-update.json:0
+[  197168ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:347
+[  199181ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:206
+[  231851ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///(pages-dir-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:345
+[  237911ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/.pnpm/next@15.5.18_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
