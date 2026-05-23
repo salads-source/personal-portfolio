@@ -8,7 +8,7 @@ export function ExperienceSection() {
       <SectionHeading
         eyebrow="Experience"
         title="Production-facing engineering across high-trust systems."
-        description="A compact timeline of internships and engineering roles from the CV."
+        description="A compact timeline of internships and engineering roles."
       />
       <div className="space-y-5">
         {experience.map((item) => (
