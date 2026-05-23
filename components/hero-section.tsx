@@ -87,7 +87,7 @@ export function HeroSection() {
         </motion.div>
 
         <motion.div
-          className="mb-5 grid gap-4 lg:grid-cols-[1fr_0.68fr]"
+          className="mb-4 grid gap-4 lg:grid-cols-[1fr_0.68fr]"
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
@@ -127,6 +127,24 @@ export function HeroSection() {
           </div>
         </motion.div>
 
+        <motion.div
+          className="mb-4 grid gap-3 font-mono text-[10px] uppercase leading-5 tracking-[0.12em] text-zinc-500 sm:grid-cols-2 dark:text-zinc-500"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5 }}
+        >
+          <div className="flex flex-wrap gap-x-4 gap-y-1 border border-zinc-950/10 bg-fog/50 px-4 py-2 dark:border-lime-300/10 dark:bg-ink/45">
+            <span>client: portfolio</span>
+            <span>viewport: responsive</span>
+            <span>status: static export</span>
+          </div>
+          <div className="flex flex-wrap gap-x-4 gap-y-1 border border-zinc-950/10 bg-fog/50 px-4 py-2 sm:justify-end dark:border-lime-300/10 dark:bg-ink/45">
+            <span>timezone: singapore</span>
+            <span>runtime: next.js</span>
+            <span>mode: light/dark</span>
+          </div>
+        </motion.div>
+
         <div className="mb-6 overflow-hidden border border-zinc-950 bg-fog/80 py-3 font-mono text-xs uppercase tracking-[0.18em] text-zinc-950 dark:border-lime-300/40 dark:bg-ink/80 dark:text-lime-100">
           <div className="animate-ticker whitespace-nowrap">
             Ron Quah / NUS Computer Science / Google SWE Intern / Shopee Data Platform / Binance Global KYC / Kafka / ClickHouse / Spring Boot / PyTorch /
@@ -134,28 +152,6 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-
-      <motion.div
-        className="pointer-events-none absolute bottom-24 left-5 hidden font-mono text-[10px] uppercase leading-5 tracking-[0.12em] text-zinc-500 lg:block dark:text-zinc-500"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5 }}
-      >
-        <p>client: portfolio</p>
-        <p>viewport: responsive</p>
-        <p>status: static export</p>
-      </motion.div>
-
-      <motion.div
-        className="pointer-events-none absolute bottom-24 right-5 hidden text-right font-mono text-[10px] uppercase leading-5 tracking-[0.12em] text-zinc-500 lg:block dark:text-zinc-500"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5 }}
-      >
-        <p>timezone: singapore</p>
-        <p>runtime: next.js</p>
-        <p>mode: light/dark</p>
-      </motion.div>
     </section>
   );
 }
