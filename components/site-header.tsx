@@ -8,8 +8,6 @@ export function SiteHeader() {
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10" aria-label="Main navigation">
         <a
           href="#hero"
-          target="_blank"
-          rel="noopener noreferrer"
           className="group flex items-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-lime-500"
         >
           <span className="relative grid size-9 place-items-center border border-zinc-950 bg-fog font-mono text-sm font-semibold text-zinc-950 dark:border-lime-300/50 dark:bg-ink dark:text-lime-200">
@@ -26,8 +24,6 @@ export function SiteHeader() {
             <a
               key={item.href}
               href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
               className="font-mono text-xs uppercase tracking-[0.18em] text-zinc-700 transition hover:text-lime-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-lime-500 dark:text-zinc-300 dark:hover:text-lime-200"
             >
               {item.label}
@@ -40,8 +36,6 @@ export function SiteHeader() {
           <a
             href={profile.cvPath}
             download
-            target="_blank"
-            rel="noopener noreferrer"
             className="inline-flex h-11 items-center gap-2 border border-zinc-950 bg-zinc-950 px-4 font-mono text-xs uppercase tracking-[0.16em] text-white transition hover:bg-lime-500 hover:text-zinc-950 focus:outline-none focus-visible:ring-2 focus-visible:ring-lime-500 dark:border-lime-300 dark:bg-lime-300 dark:text-zinc-950 dark:hover:bg-lime-200"
           >
             <Download aria-hidden className="size-4" />

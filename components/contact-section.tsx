@@ -10,7 +10,7 @@ export function ContactSection() {
         <SectionHeading
           eyebrow="Contact"
           title="Let's talk systems, internships, and engineering problems worth tightening."
-          description="Best reached by email. Social links are pulled from the CV."
+          description="Best reached by email."
           className="mb-8"
         />
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -35,9 +35,7 @@ export function ContactSection() {
             <ArrowUpRight aria-hidden className="ml-auto size-4" />
           </a>
         </div>
-        <footer className="mt-10 border-t border-zinc-950/10 pt-5 font-mono text-xs uppercase tracking-[0.16em] text-zinc-500 dark:border-lime-300/10 dark:text-zinc-500">
-          Built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, and next-themes.
-        </footer>
+
       </div>
     </MotionSection>
   );

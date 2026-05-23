@@ -8,7 +8,7 @@ export function ProjectsSection() {
       <SectionHeading
         eyebrow="Projects"
         title="Selected systems from recent engineering work."
-        description="The CV does not list standalone personal projects, so this section highlights shipped systems and pipelines directly from work experience."
+        description="Key features architected and implemented in production."
       />
       <div className="grid gap-5 md:grid-cols-2">
         {projects.map((project) => {
