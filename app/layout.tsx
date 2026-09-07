@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import "./orbital.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { profile } from "@/lib/content";
 
