@@ -14,7 +14,7 @@ export const profile = {
   name: "Ron Quah",
   initials: "RQ",
   role: "Software Engineer",
-  headline: "Backend, data platform, compliance, and ML systems with production-grade discipline.",
+  headline: "Agent platforms, data infrastructure, and reliable software systems.",
   location: "Singapore",
   email: "e1156664@u.nus.edu",
   phone: "+65 9100 7628",
@@ -32,24 +32,28 @@ export const navItems = [
 ];
 
 export const heroStats = [
-  { label: "Task instances served daily", value: "1M+" },
-  { label: "Manual review time reduced", value: "40%" },
-  { label: "Latency or memory reductions", value: "30%" }
+  { label: "Engineer effort reduced", value: "60%" },
+  { label: "Task instances supported daily", value: "1M+" },
+  { label: "Manual review time reduced", value: "40%" }
 ];
 
 export const about = [
-  "Computer Science student at the National University of Singapore, building across backend infrastructure, data platforms, compliance workflows, and applied machine learning.",
-  "Recent work spans Kafka and ClickHouse log ingestion, Spring Boot microservices, Redis-backed fault tolerance, Kubernetes preview environments, React/Next.js frontends, and low-latency computer vision inference."
+  "Computer Science student at the National University of Singapore, building agent platforms, backend infrastructure, data products, and production web systems.",
+  "Recent work spans multi-agent orchestration, Kafka and ClickHouse log ingestion, Spring Boot services, Redis-backed fault tolerance, Spark and Presto data-quality tooling, and React/Next.js applications."
 ];
 
 export const experience = [
   {
     company: "Google",
-    role: "Incoming Software Engineer Intern",
+    role: "Software Engineer Intern",
     location: "Singapore",
     date: "May 2026 - August 2026",
-    stack: ["Software Engineering"],
-    bullets: ["Incoming internship focused on software engineering in Google's Singapore office."]
+    stack: ["Python", "RPC", "Agent Development Kit"],
+    bullets: [
+      "Architected and implemented a multi-agent orchestration platform using Agent Development Kit to automate documentation maintenance across large-scale codebases, reducing engineer effort by 60% through agent-generated pull requests requiring human review.",
+      "Extended Agent Development Kit with custom agent tool wrappers over internal services, making reusable secure agent tooling available to 80+ engineering teams.",
+      "Designed an agent evaluation framework using autoraters, golden datasets, deterministic trajectory matching, and LLM-as-a-judge evaluation to validate safe tool execution and semantic correctness."
+    ]
   },
   {
     company: "Shopee",
@@ -58,9 +62,9 @@ export const experience = [
     date: "December 2025 - April 2026",
     stack: ["Spring", "Kafka", "Redis", "Grafana", "ClickHouse", "Kubernetes"],
     bullets: [
-      "Designed and implemented a distributed log storage pipeline with Kafka and ClickHouse ReplicatedMergeTree, using partitioning, sharding, and replication to ingest and serve logs for 1M+ task instances daily.",
-      "Improved data quality service reliability with Grafana monitoring and thread pool concurrency tuning, reducing memory usage by 30% under load.",
-      "Collaborated with SRE to architect Kubernetes namespace based preview environments with namespaced Kafka topics, S3 prefixes, Redis keys, and automated CI/CD teardown."
+      "Designed and implemented a distributed log storage pipeline using Kafka and ClickHouse, mapping Kafka partitions to ClickHouse shards, configuring ReplicatedMergeTree replicas, and defining partition and sort keys for efficient time-range queries supporting 1M+ task instances daily.",
+      "Improved data quality service reliability by instrumenting Grafana JVM and workload monitoring and tuning thread pools, queue capacity, and concurrency limits, reducing memory usage by 30%.",
+      "Built a centralised self-service dashboard for configuring Spark and Presto data-quality compute resources with ownership-based access control and workload settings for CPU, memory, and concurrency."
     ]
   },
   {
@@ -70,9 +74,8 @@ export const experience = [
     date: "May 2025 - November 2025",
     stack: ["Spring", "MySQL", "Kafka", "Redis", "TestNG"],
     bullets: [
-      "Built a scalable Spring Boot microservice for multi-stage document verification, orchestrating OCR extraction and LLM-based compliance checks with RAG jurisdiction rules.",
-      "Generated explainable pass/fail previews and reduced manual compliance review time by 40%.",
-      "Engineered a Kafka fallback mechanism using Redis as temporary persistence during broker unavailability and ZooKeeper leader re-election."
+      "Designed and implemented a scalable Spring Boot microservice for a multi-stage document verification pipeline, orchestrating OCR extraction and LLM-based compliance checks with RAG-driven jurisdiction rules to generate explainable pass/fail previews and reduce manual review time by 40%.",
+      "Engineered a fault-tolerant Kafka fallback mechanism using Redis as temporary persistence during broker unavailability and ZooKeeper leader re-election, enabling reliable recovery and reprocessing after cluster stabilisation."
     ]
   },
   {
@@ -98,18 +101,6 @@ export const experience = [
       "Reduced initial bundle pressure through dynamic imports, lazy loading, and code splitting."
     ]
   },
-  {
-    company: "Digital Intelligence Service (DIS)",
-    role: "Machine Learning Engineer Intern",
-    location: "Singapore",
-    date: "June 2022 - April 2023",
-    stack: ["PyTorch", "Python", "Docker", "ResNet50", "YOLOv5"],
-    bullets: [
-      "Designed and implemented a real-time computer vision inference pipeline for operational military use.",
-      "Built and optimized CNN-based object detection models, achieving 80% target detection accuracy during live field exercises.",
-      "Reduced processing latency by 30% through inference pipeline restructuring, batching, and runtime tuning."
-    ]
-  }
 ];
 
 export const projects = [
@@ -118,60 +109,64 @@ export const projects = [
     context: "Shopee Data Platform",
     description:
       "Kafka and ClickHouse ingestion system with ReplicatedMergeTree, partitioning, sharding, and replication for high-volume task logs.",
-    impact: "Served logs for 1M+ task instances daily.",
-    icon: Database
+    impact: "Supported log ingestion for 1M+ task instances daily.",
+    icon: Database,
+    visual: "log-pipeline"
+  },
+  {
+    title: "Agent Documentation Orchestration",
+    context: "Google Software Engineering",
+    description:
+      "Multi-agent platform using Agent Development Kit, internal service wrappers, pull-request workflows, and evaluation datasets to automate documentation maintenance.",
+    impact: "Reduced engineer effort by 60% and served 80+ engineering teams.",
+    icon: BrainCircuit,
+    visual: "agent-orchestration"
   },
   {
     title: "KYC Document Verification Service",
     context: "Binance Global KYC",
     description:
-      "Spring Boot microservice coordinating OCR extraction, LLM compliance checks, and RAG-backed jurisdiction rules with explainable decisions.",
+      "Spring Boot microservice coordinating OCR extraction, LLM compliance checks, Redis-backed Kafka recovery, and RAG-driven jurisdiction rules.",
     impact: "Reduced manual compliance review time by 40%.",
-    icon: ShieldCheck
+    icon: ShieldCheck,
+    visual: "kyc-pipeline"
   },
   {
-    title: "Ephemeral Preview Environments",
-    context: "Shopee SRE collaboration",
+    title: "Data Quality Control Dashboard",
+    context: "Shopee Data Platform",
     description:
-      "Per-PR isolated deployments using Kubernetes namespaces and namespaced Kafka, S3, and Redis resources with CI/CD provisioning.",
-    impact: "Improved development isolation and cleanup reliability.",
-    icon: Cloud
-  },
-  {
-    title: "Real-Time Vision Inference Pipeline",
-    context: "Digital Intelligence Service",
-    description:
-      "Low-latency target detection workflow using CNN-based models, Dockerized deployment, batching, and runtime performance tuning.",
-    impact: "Reached 80% detection accuracy and cut processing latency by 30%.",
-    icon: BrainCircuit
+      "Self-service dashboard for Spark and Presto compute settings with ownership-based access control, workload governance, and resource configuration.",
+    impact: "Made CPU, memory, and concurrency controls visible to authorised owners.",
+    icon: Cloud,
+    visual: "data-quality"
   }
-];
+] as const;
 
 export const skillGroups = [
   {
     label: "Languages",
     icon: Code2,
-    items: ["Python", "JavaScript", "Java", "Golang", "TypeScript", "HTML/CSS", "SQL", "MongoDB"]
+    items: ["Python", "JavaScript", "Java", "Golang", "TypeScript", "HTML/CSS", "SQL (PostgreSQL, MySQL)", "MongoDB", "ClickHouse"]
   },
   {
     label: "Frameworks",
     icon: Layers3,
-    items: ["React", "Next.js", "Spring Boot", "Express.js", "TensorFlow", "PyTorch"]
+    items: ["React", "Next.js", "Spring Boot", "Express.js", "TensorFlow", "PyTorch", "Spark"]
   },
   {
     label: "Data & Infra",
     icon: Network,
-    items: ["Apache Kafka", "Apache Spark", "Redis", "ClickHouse", "Grafana", "Docker"]
+    items: ["Apache Kafka", "Apache Spark", "Redis", "Firebase", "ClickHouse", "Grafana", "GCP", "AWS"]
   },
   {
-    label: "Cloud & Tools",
+    label: "Developer Tools",
     icon: Workflow,
-    items: ["GCP", "AWS", "Firebase", "GitHub", "VS Code", "Jest", "TestNG"]
+    items: ["VS Code", "Docker", "GitHub", "Jest"]
   },
   {
-    label: "Systems Focus",
+    label: "Systems & Platforms",
     icon: Gauge,
-    items: ["Microservices", "CI/CD", "Observability", "Fault tolerance", "Computer vision", "RAG workflows"]
+    items: ["RPC", "Agent Development Kit", "Microservices", "Observability", "Fault tolerance", "RAG workflows"]
   }
 ];
 

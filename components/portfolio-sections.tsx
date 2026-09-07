@@ -1,5 +1,7 @@
 import { ArrowUpRight, ArrowUp, Github, Linkedin, Mail } from "lucide-react";
 import { about, education, experience, heroStats, profile, projects, skillGroups } from "@/lib/content";
+import { AsciiTorusScene } from "./ascii-torus-scene";
+import { ProjectDiagram } from "./project-diagram";
 import { ProjectMotion } from "./project-motion";
 function SectionLabel({ number, children }: { number: string; children: string }) {
   return <p className="section-label micro"><span className="accent">{number} /</span> {children}</p>;
@@ -11,11 +13,20 @@ export function PortfolioSections() {
       <div className="about-layout"><h2>Curiosity.<br />Structure.<br /><em>Real-world impact.</em></h2><div className="about-copy">{about.map(p => <p key={p}>{p}</p>)}<a className="text-link" href={profile.cvPath} download>The full story / Résumé <ArrowUpRight size={15} /></a></div></div>
       <div className="stats-row">{heroStats.map((stat, i) => <div key={stat.label}><span className="micro muted">FIG. 0{i + 1}</span><strong>{stat.value}</strong><p>{stat.label}</p></div>)}</div>
     </section>
+    <section className="torus-interlude" aria-labelledby="torus-title">
+      <div className="torus-copy">
+        <p className="micro accent">OBJECT / 002</p>
+        <h2 id="torus-title">Form follows<br /><em>the system.</em></h2>
+        <p>Geometry becomes signal. Signal becomes structure. A small study in the visual language behind this portfolio.</p>
+      </div>
+      <AsciiTorusScene />
+      <span className="micro torus-caption">DRAG / ROTATE · SCROLL / ZOOM</span>
+    </section>
     <section id="projects" className="portfolio-section">
       <SectionLabel number="02">SELECTED WORK</SectionLabel>
       <div className="section-title-row"><h2>Complexity in.<br /><em>Clarity out.</em></h2><p>Infrastructure, intelligence, and the<br />systems that connect them.</p></div>
       <ProjectMotion><div className="projects-grid">{projects.map((project, i) => <article className="project-card" key={project.title}>
-        <div className={`project-visual diagram-${i}`} aria-hidden="true"><span className="micro figure-label">SYS / 00{i + 1}</span><div className="system-diagram"><i /><i /><i /><i /><b /></div><span className="micro diagram-caption">{["DISTRIBUTED / CONNECTED", "VERIFY / RESOLVE", "ISOLATE / ITERATE", "PERCEIVE / PROCESS"][i]}</span></div>
+        <div className="project-visual" aria-hidden="true"><span className="micro figure-label">SYS / 00{i + 1}</span><div className={`system-diagram ${project.visual}`}><ProjectDiagram type={project.visual} /></div><span className="micro diagram-caption">{project.visual === "log-pipeline" ? "INGEST / PARTITION / REPLICATE / QUERY" : project.visual === "agent-orchestration" ? "PLAN / TOOL / EVALUATE / PROPOSE" : project.visual === "kyc-pipeline" ? "DOCUMENT / EXTRACT / RETRIEVE / DECIDE" : "OWNER / RESOURCE / GOVERN / RUN"}</span></div>
         <div className="project-copy"><p className="micro accent">{project.context}</p><h3>{project.title}</h3><p>{project.description}</p><div className="project-impact"><span className="signal-dot" />{project.impact}</div></div>
       </article>)}</div></ProjectMotion>
     </section>
