@@ -42,7 +42,7 @@ class SceneBoundary extends Component<{ children: ReactNode }, { failed: boolean
 
 export function EffectScene({ paused = false }: { paused?: boolean }) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [supported, setSupported] = useState(false);
+  const [supported, setSupported] = useState<boolean | null>(null);
   const [visible, setVisible] = useState(true);
   const [reducedMotion, setReducedMotion] = useState(true);
   useEffect(() => {
@@ -67,7 +67,7 @@ export function EffectScene({ paused = false }: { paused?: boolean }) {
   }, []);
   const animate = visible && !paused && !reducedMotion;
   return <div ref={containerRef} className="effect-scene" aria-hidden="true">
-    <div className="blackhole-fallback"><span /></div>
+    {supported === false && <div className="blackhole-fallback"><span /></div>}
     {supported && <SceneBoundary><Canvas dpr={[1, 1.5]} frameloop={animate ? "always" : "demand"}
       camera={{ position: [0, 0, 5], fov: 50 }} gl={{ antialias: false, alpha: false, powerPreference: "low-power" }}>
       <color attach="background" args={["#000000"]} /><BlackHole animate={animate} />
