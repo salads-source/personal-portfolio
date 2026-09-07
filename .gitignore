@@ -10,3 +10,7 @@ yarn-error.log*
 .playwright-cli/
 output/playwright/
 *.log
+
+# Personal agent skill installations
+.agents/skills/
+skills-lock.json
